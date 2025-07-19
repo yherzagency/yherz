@@ -11,6 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+		<script src="assets/js/script.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -71,15 +76,15 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="post" action="https://formsubmit.co/main@yherz.agency">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="name" id="name" required/>
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="email" name="email" id="email" required/>
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
@@ -87,15 +92,17 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+
+										<li><input  type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-														<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/yherz-agency-131725374/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-google"><span class="label">Google</span></a></li>
+									<li><a href="https://www.instagram.com/yherz_agency/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.tiktok.com/@yherz_agency" class="icon brands fa-tiktok"><span class="label">Tiktok</span></a></li>
 						</ul>
 							</article>
 
@@ -347,10 +354,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<footer id="footer">
 						<!--	<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
 						<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.linkedin.com/in/yherz-agency-131725374/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-google"><span class="label">Google</span></a></li>
+									<li><a href="https://www.instagram.com/yherz_agency/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.tiktok.com/@yherz_agency" class="icon brands fa-tiktok"><span class="label">Tiktok</span></a></li>
+							        <li><a href="#contact" class="icon brands fa-google"><span class="label">Google</span></a></li>
 						</ul>
 						Founded by Abdullah Noufal
 						and Adham el Shorbagy
